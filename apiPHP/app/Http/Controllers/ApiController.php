@@ -13,13 +13,14 @@ class ApiController extends Controller
     }
 
     public function createStudent(Request $request) {
+
         $student = new Student;
         $student->name = $request->name;
         $student->course = $request->course;
-        $student->save();
+        //$student->save();
 
         return response()->json([
-            "message" => "student record created"
+          "message" => "createStudent"
         ], 201);
     }
 
