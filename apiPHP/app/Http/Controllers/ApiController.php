@@ -9,7 +9,7 @@ class ApiController extends Controller
 {
     public function getAllStudents() {
         // logic to get all students goes here
-        echo('STOP HERE');
+        return response()->json(['foo'=>'bar']);
     }
 
     public function createStudent(Request $request) {
