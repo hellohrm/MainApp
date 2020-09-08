@@ -20,6 +20,7 @@
   <ItemGroup>
     <Compile Include="app\Console\Kernel.php" />
     <Compile Include="app\Exceptions\Handler.php" />
+    <Compile Include="app\Http\Controllers\ApiController.php" />
     <Compile Include="app\Http\Controllers\Controller.php" />
     <Compile Include="app\Http\Kernel.php" />
     <Compile Include="app\Http\Middleware\Authenticate.php" />
@@ -58,7 +59,6 @@
     <Compile Include="database\migrations\2014_10_12_100000_create_password_resets_table.php" />
     <Compile Include="database\migrations\2019_08_19_000000_create_failed_jobs_table.php" />
     <Compile Include="database\seeds\DatabaseSeeder.php" />
-    <Compile Include="index.php" />
     <Compile Include="public\index.php" />
     <Compile Include="resources\lang\en\auth.php" />
     <Compile Include="resources\lang\en\pagination.php" />
