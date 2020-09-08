@@ -36,7 +36,6 @@
     <Compile Include="app\Providers\BroadcastServiceProvider.php" />
     <Compile Include="app\Providers\EventServiceProvider.php" />
     <Compile Include="app\Providers\RouteServiceProvider.php" />
-    <Compile Include="app\index.php" />
     <Compile Include="app\User.php" />
     <Compile Include="bootstrap\app.php" />
     <Compile Include="bootstrap\cache\packages.php" />
