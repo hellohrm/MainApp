@@ -119,6 +119,7 @@
     <Content Include=".env.example" />
     <Content Include=".gitattributes" />
     <Content Include=".gitignore" />
+    <Content Include=".htaccess" />
     <Content Include=".styleci.yml" />
     <Content Include="artisan" />
     <Content Include="bootstrap\cache\.gitignore" />
