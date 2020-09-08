@@ -8,7 +8,7 @@
     </RootNamespace>
     <OutputType>Library</OutputType>
     <ProjectTypeGuids>{A0786B88-2ADB-4C21-ABE8-AA2D79766269}</ProjectTypeGuids>
-    <SpecificPageValue>server.php</SpecificPageValue>
+    <SpecificPageValue>app/index.php</SpecificPageValue>
     <StartAction>SpecificPage</StartAction>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
@@ -36,6 +36,7 @@
     <Compile Include="app\Providers\BroadcastServiceProvider.php" />
     <Compile Include="app\Providers\EventServiceProvider.php" />
     <Compile Include="app\Providers\RouteServiceProvider.php" />
+    <Compile Include="app\index.php" />
     <Compile Include="app\User.php" />
     <Compile Include="bootstrap\app.php" />
     <Compile Include="bootstrap\cache\packages.php" />
